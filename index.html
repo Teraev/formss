@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="Header_main">
+        <div class="header_left">
+            <button class="but_round"></button>
+            <div class="tree_but">
+                <button class="but_left">Главная</button>
+                <button class="but_cen">Каталог</button>
+                <button class="but_right">Контакты</button>
+            </div>
+        </div>
+        <p class="Main">Royal Pass</p>
+        <div class="header_right">
+            <p class="Name">Ryan Gosling</p>
+            <div class="round"></div>
+        </div>
+    </header>
+
+    <div class="Inf">
+        <div class="right_text">
+            <h2 class="information">Информация о заявителе</h2>
+            <p class="field_form">Заполните форму</p>
+        </div>
+        <div class="left_text">
+            <p>All: 13</p>
+            <p>Need: 5</p>
+            <p class="success">Success: <span>0</span>/13</p>
+            <p class="eror">Error: <span>0</span>/5</p>
+        </div>
+    </div>
+
+    <form class="Registration" name="Registration">
+        <div class="smallest">
+            <div class="req" id="inp">
+                <span>First name</span>
+                <input name="name"  class="small_inp" type="text">
+            </div>
+            <div id="inp">
+                <span>Second name</span>
+                <input name="surname" class="small_inp" type="text">
+            </div>
+            <div id="inp">
+                <span>Last name</span>
+                <input name="lastname" class="small_inp" type="text">
+            </div>
+        </div>
+        <div class="biggest">
+            <div id="inps">
+                <span>Social security</span>
+                <input name="social" class="big_inp" type="text">
+            </div>
+            <div id="inps">
+                <span>Birth date</span>
+                <input name="birtday" class="big_inp" type="date">
+            </div>
+        </div>
+        <div class="smallest">
+            <div class="req" id="inp">
+                <span>Email adress</span>
+                <input name="email" class="small_inp" type="email">
+            </div>
+            <div id="inp">
+                <span>Home phone</span>
+                <input name="home_nubmer" class="small_inp" type="tel">
+            </div>
+            <div class="req" id="inp">
+                <span>Cell Phone</span>
+                <input name="phone" class="small_inp" type="tel">
+            </div>
+        </div>
+        <div class="biggest">
+            <div id="inps">
+                <span>Street adress</span>
+                <input name="adress" class="big_inp" type="text">
+            </div>
+            <div id="inps">
+                <span>ZIP Postal code</span>
+                <input name="zip" class="big_inp" type="text">
+            </div>
+        </div>
+        <div class="smallest">
+            <div id="inp">
+                <span>Appartment, suite etc.</span>
+                <input name="xz" class="small_inp" type="text">
+            </div>
+            <div class="req" id="inp">
+                <span>City</span>
+                <input name="city" class="small_inp" type="text">
+            </div>
+            <div class="req" id="inp">
+                <span>State province</span>
+                <input name="state" class="small_inp" type="text">
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="privacy">
+                <input class="bird" type="checkbox">
+                <p>Я соглашаюсь с политикой обработки персональных данных</p>
+            </div>
+        </div>
+    
+        <button class="confirm">Отправить</button>
+    </form>
+
+   
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
